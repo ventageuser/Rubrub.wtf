@@ -8,8 +8,8 @@ local Settings = {
     Dim = false,
     ItemColor = Color3.fromRGB(30, 30, 30),
     BorderColor = Color3.fromRGB(45, 45, 45),
-    MinSize = Vector2.new(1, 4),
-    MaxSize = Vector2.new(5000, 4000)
+    MinSize = Vector2.new(workspace.CurrentCamera.ViewportSize.X / 4, workspace.CurrentCamera.ViewportSize.Y / 4),
+    MaxSize = Vector2.new(workspace.CurrentCamera.ViewportSize.X / 4, workspace.CurrentCamera.ViewportSize.Y / 4)
 }
 
 
