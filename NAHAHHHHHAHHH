@@ -1,21 +1,15 @@
--- // make multiselect in order
--- // add border pixel math to dragging
--- // containers canvasscroll update on setvisible
--- // Dragging sys has errors
--- // I think something was wrong with the keybinds/indicators tweening
--- // Menu Effects (OnHover, OnClick)
-
+--//NYULA IS ASSSSS, Anyways creds to endless solutions 
 
 local Settings = {
-    Accent = Color3.fromHex("#820303"),
+    Accent = Color3.fromHex("#0000FF"),
     Font = Enum.Font.SourceSans,
     IsBackgroundTransparent = true,
     Rounded = true,
     Dim = false,
     ItemColor = Color3.fromRGB(30, 30, 30),
     BorderColor = Color3.fromRGB(45, 45, 45),
-    MinSize = Vector2.new(500, 400),
-    MaxSize = Vector2.new(500, 400)
+    MinSize = Vector2.new(1, 4),
+    MaxSize = Vector2.new(5000, 4000)
 }
 
 
